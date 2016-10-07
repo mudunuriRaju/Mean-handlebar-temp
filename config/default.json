@@ -1,0 +1,21 @@
+{
+  "db_details": {
+    "db_name": "Kapp",
+    "host": "localhost"
+  },
+  "email": {
+    "ssl": {
+      "host": "smtp.gmail.com",
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "noreply@gmail.com",
+        "pass": "norely"
+      },
+      "logger": true,
+      // log to console
+      "debug": true
+    },
+    "form": "No Reply <noreply@gmail.com>"
+  }
+}
